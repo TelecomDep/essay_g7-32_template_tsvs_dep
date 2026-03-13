@@ -62,6 +62,6 @@ git clone https://github.com/sibsutisTelecomDep/essay_g7-32_template_tsvs_dep.gi
 
 <img src="https://github.com/user-attachments/assets/4ac12dd7-0da0-4f4b-8ea4-01b1b3b7bac8" width="700" /> 
 
-## Полезные гайды по LaTeX
+# Полезные гайды по LaTeX
 
 1. [XeLaTeX для оформления текстов: Текст, рисунки, таблицы, автоматизация](https://habr.com/ru/articles/764596/);
