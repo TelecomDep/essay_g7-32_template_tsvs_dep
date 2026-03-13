@@ -10,8 +10,27 @@
 
 %%% Задаем языковые параметры и шрифт %%%
 
-\usepackage[english, russian]{babel}                % Настройки для русского языка как основного в тексте
-\babelfont[russian]{rm}{Times New Roman}                     % TMR в качестве базового roman-щрифта
+% \usepackage[english, russian]{babel}                % Настройки для русского языка как основного в тексте
+\usepackage{polyglossia}
+\setdefaultlanguage[indentfirst=true,forceheadingpunctuation=false]{russian}
+\setotherlanguages{english}
+
+\IfFontExistsTF{Times New Roman}
+{\setmainfont{Times New Roman}
+\newfontfamily\cyrillicfont{Times New Roman}[Script=Cyrillic]}
+{\setmainfont[Script=Cyrillic]{FreeSerif}}
+
+\IfFontExistsTF{Courier New}
+{\setmonofont{Courier New}
+\newfontfamily\cyrillicfonttt{Courier New}[Script=Cyrillic]
+}
+{\setmonofont[Script=Cyrillic]{FreeMono}}
+
+\IfFontExistsTF{Arial}
+{\setsansfont{Arial}
+\newfontfamily\cyrillicfontsf{Arial}[Script=Cyrillic]
+}
+{\setsansfont[Script=Cyrillic]{FreeSans}}
 
 
 
