@@ -28,14 +28,14 @@ sudo apt-get update
 sudo apt install -y texlive-science texlive-latex-extra texlive-extra-utils latexmk texlive-publishers texlive-science texlive-bibtex-extra texlive-full
 ```
 
-### 5. VSCode Extensions: LaTeX Workshop, LaTeX Utilities
+### 3. VSCode Extensions: LaTeX Workshop, LaTeX Utilities
 
 Устанавливаем расширения `VSCode`:
 
 <img src="https://github.com/user-attachments/assets/ca51d44b-c6ec-4cf2-af4d-df32cfb64a2f" width="400" />
 
 
-### 6. Поддержка xelatex
+### 4. Поддержка xelatex
 В проектах [Overleaf](https://ru.overleaf.com/project) используется верстка `xelatex`, добавим поддержку в `VSCode`: `CTRL`+`Shift`+`P`, далее ищем `Preferences: Open User Settings (JSON)` в открывшемся файле добавляем строки:
 ```sh
 "latex-workshop.latex.tools": [{
