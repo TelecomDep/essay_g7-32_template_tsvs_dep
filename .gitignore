@@ -12,6 +12,10 @@
 *.cb2
 .*.lb
 *.bcf-SAVE-ERROR
+*.bib
+*.aux
+*.bcf
+
 
 ## Intermediate documents:
 *.dvi
